@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xml --> 
+<FileDiConfigurazioneXML portaServerLog="6789" ipClient="127.0.0.1" ipServerLog="127.0.0.1" numeroRighe="6" numeroProdotti="3" numeroGiorni="3">
+    <font>Segoe UI</font>
+    <dimensioneFont>11.0</dimensioneFont>
+    <dimensioni>
+        <double>700.0</double>
+        <double>500.0</double>
+    </dimensioni>
+    <altezzaRiga>30</altezzaRiga>
+    <spaziatura>10</spaziatura>
+    <dimensioneTitolo>5</dimensioneTitolo>
+    <dimensioneLabel>3</dimensioneLabel>
+    <coloreSfondo>ALICEBLUE</coloreSfondo>
+</FileDiConfigurazioneXML> 

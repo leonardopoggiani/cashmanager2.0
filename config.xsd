@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="FileDiConfigurazioneXML">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="font" type="xs:string"/>
+                <xs:element name="dimensioneFont" type="xs:float"/>
+                <xs:element name="dimensioni">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="double" type="xs:double" minOccurs="2" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="altezzaRiga" type="xs:float"/>
+                <xs:element name="spaziatura" type="xs:float"/>
+                <xs:element name="dimensioneTitolo" type="xs:float"/>
+                <xs:element name="dimensioneLabel" type="xs:float"/>
+                <xs:element name="coloreSfondo" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="numeroRighe" type="xs:byte"/>
+            <xs:attribute name="ipClient" type="xs:string"/>
+            <xs:attribute name="ipServerLog" type="xs:string"/>
+            <xs:attribute name="portaServerLog" type="xs:short"/>
+			<xs:attribute name="numeroProdotti" type="xs:byte"/>
+			<xs:attribute name="numeroGiorni" type="xs:byte"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
